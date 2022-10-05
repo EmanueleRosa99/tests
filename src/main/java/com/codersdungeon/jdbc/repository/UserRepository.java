@@ -90,6 +90,7 @@ public class UserRepository extends DBRepository {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+        System.out.println("ciao");
         return null;
     }
 }
